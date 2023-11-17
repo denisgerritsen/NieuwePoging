@@ -31,7 +31,7 @@ $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionSt
 
 echo "test2<br>"; 
 
-$blob_name = "created pdf from Jira.zip";
+$blob_name = "file created from Jira.zip";
 
 try     {
         $file = fopen('download.pdf', "r");
